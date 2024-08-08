@@ -1,0 +1,44 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Pub Up Landing Page Express Backend",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server",
+        "sc": "code . && nodemon server",
+        "client-install": "npm install --prefix client",
+        "server": "nodemon server.js",
+        "back": "cd .. && cd .. && cd AppClient/",
+        "clean": "rm -rf node_modules package-lock.json && npm i",
+        "g": "git add . && git commit -m 'Small Changes' && git push origin master"
+    },
+    "keywords": [],
+    "author": "Jakob S.",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.1.2",
+        "bcryptjs": "^2.4.3",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-bouncer": "^0.2.0",
+        "firebase-admin": "^11.11.1",
+        "form-data": "^4.0.0",
+        "helmet": "^6.0.0",
+        "hpp": "^0.2.3",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.4",
+        "moment-timezone": "^0.5.43",
+        "mongoose": "^5.11.3",
+        "node-fetch": "^3.2.10",
+        "nodemailer": "^6.8.0",
+        "onesignal-node": "^3.2.1",
+        "toobusy-js": "^0.5.1",
+        "xss": "^1.0.14"
+    },
+    "engines": {
+        "node": "16"
+    }
+}
